@@ -3,6 +3,13 @@
     -Empresa: Caso 08 — Taller mecánico "AutoExpress"
     -Fichas técnicas: 
     -Fe de erratas:
+    1. **Dato en el tema:** El documento PDF afirma en la sección de CRM que **SuiteCRM** (clasificado como CRM libre) es compatible con MySQL, MariaDB y **SQL Server**[cite: 1].
+   * **Realidad actual:** SuiteCRM no ofrece soporte oficial para Microsoft SQL Server. Está diseñado y optimizado estrictamente para motores de bases de datos de código abierto como MySQL y MariaDB. Atribuirle compatibilidad con SQL Server es un error técnico de arquitectura.
+   * **Fuente:** Documentación oficial de requisitos y matriz de compatibilidad de SuiteCRM (`docs.suitecrm.com`).
+
+2. **Dato en el tema:** En la categorización de herramientas, se presenta a **Fat Free CRM** como el referente principal de los CRM libres de código abierto más valorados y activos[cite: 1], infravalorando el peso de **SuiteCRM**.
+   * **Realidad actual:** Aunque Fat Free CRM es de código abierto (bajo licencia MIT), **SuiteCRM** (bajo AGPL-3.0) es el estándar de la industria y la alternativa libre orientada a entornos empresariales reales más robusta, con soporte completo para flujos corporativos avanzados frente a proyectos más minimalistas.
+   * **Fuente:** Repositorios oficiales en GitHub de SuiteCRM y comparativas del sector del software de gestión libre.
     -Matriz de decisión y recomendación:
 
 ## 2. Licencias y modelos (Libre, Código Abierto y Propietario)
