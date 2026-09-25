@@ -1,10 +1,6 @@
 * Datos:
     -Propietario: MauroRodriguezPonce
     -Empresa: Caso 08 — Taller mecánico "AutoExpress"
-    -Fichas técnicas: 
-
-
-    -Matriz de decisión y recomendación:
 
 ## 2. Licencias y modelos (Libre, Código Abierto y Propietario)
 * **Software Libre (FSF):** Garantiza las cuatro libertades esenciales definidas por la Free Software Foundation (ejecutar, estudiar, modificar y redistribuir). El foco está en la libertad ética del usuario.
@@ -196,5 +192,3 @@ Migración futura: se debe comprobar que clientes, vehículos, citas, recambios,
 
 Por tanto, la decisión debe basarse en la matriz y, antes de contratar, en la comprobación real del coste, las condiciones de soporte, la portabilidad de los datos y las posibilidades de integración.
 
-
-### Justificación y Recomendación Final
