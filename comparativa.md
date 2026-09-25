@@ -2,14 +2,8 @@
     -Propietario: MauroRodriguezPonce
     -Empresa: Caso 08 — Taller mecánico "AutoExpress"
     -Fichas técnicas: 
-    -Fe de erratas:
-    1. **Dato en el tema:** El documento PDF afirma en la sección de CRM que **SuiteCRM** (clasificado como CRM libre) es compatible con MySQL, MariaDB y **SQL Server**[cite: 1].
-   * **Realidad actual:** SuiteCRM no ofrece soporte oficial para Microsoft SQL Server. Está diseñado y optimizado estrictamente para motores de bases de datos de código abierto como MySQL y MariaDB. Atribuirle compatibilidad con SQL Server es un error técnico de arquitectura.
-   * **Fuente:** Documentación oficial de requisitos y matriz de compatibilidad de SuiteCRM (`docs.suitecrm.com`).
 
-2. **Dato en el tema:** En la categorización de herramientas, se presenta a **Fat Free CRM** como el referente principal de los CRM libres de código abierto más valorados y activos[cite: 1], infravalorando el peso de **SuiteCRM**.
-   * **Realidad actual:** Aunque Fat Free CRM es de código abierto (bajo licencia MIT), **SuiteCRM** (bajo AGPL-3.0) es el estándar de la industria y la alternativa libre orientada a entornos empresariales reales más robusta, con soporte completo para flujos corporativos avanzados frente a proyectos más minimalistas.
-   * **Fuente:** Repositorios oficiales en GitHub de SuiteCRM y comparativas del sector del software de gestión libre.
+
     -Matriz de decisión y recomendación:
 
 ## 2. Licencias y modelos (Libre, Código Abierto y Propietario)
@@ -21,7 +15,7 @@
   * *Community:* Gratuita, código accesible (habitualmente bajo licencias como AGPL o LGPL), orientada a PYMEs o comunidades, con soporte de la comunidad y limitaciones en funcionalidades avanzadas o soporte oficial garantizado.
   * *Enterprise:* De pago (por suscripción), incluye soporte técnico oficial SLA, herramientas avanzadas de gestión, mayor seguridad y módulos certificados para grandes empresas.
 
----
+----
 
 ## 3. Fichas técnicas de productos
 
@@ -65,15 +59,17 @@
 * **Requisitos:** Dispositivo con navegador web y conexión a internet.
 * **Fuente oficial:** [Salesforce](https://www.salesforce.com/) (Consultado el 24/09/2026).
 
----
+----
 
 ## 4. Fe de erratas del tema 2
-1. **Dato en el tema:** El PDF afirma que las versiones Community de Odoo carecen por completo de módulos de fabricación o que solo funcionan con bases de datos MySQL.
-   * **Realidad actual:** Odoo Community incluye de serie el módulo de fabricación (MRP) adaptado a talleres y obradores, y su SGBD nativo y exclusivo es PostgreSQL.
-   * **Fuente:** Documentación oficial de Odoo / Releases de Odoo 17 y 18.
-2. **Dato en el tema:** Se indica que las soluciones CRM de código abierto no permiten automatizaciones de marketing complejas sin coste.
-   * **Realidad actual:** Herramientas como SuiteCRM integran motores de campañas de marketing y flujos de trabajo automatizados avanzados sin necesidad de licencias comerciales adicionales.
-   * **Fuente:** Repositorio oficial y matriz de características de SuiteCRM 8.
+
+1. **Dato en el tema:** El documento PDF afirma en la sección de CRM que **SuiteCRM** (clasificado como CRM libre) es compatible con MySQL, MariaDB y **SQL Server**[cite: 1].
+   * **Realidad actual:** SuiteCRM no ofrece soporte oficial para Microsoft SQL Server. Está diseñado y optimizado estrictamente para motores de bases de datos de código abierto como MySQL y MariaDB. Atribuirle compatibilidad con SQL Server es un error técnico de arquitectura.
+   * **Fuente:** Documentación oficial de requisitos y matriz de compatibilidad de SuiteCRM (`docs.suitecrm.com`).
+
+2. **Dato en el tema:** En la categorización de herramientas, se presenta a **Fat Free CRM** como el referente principal de los CRM libres de código abierto más valorados y activos[cite: 1], infravalorando el peso de **SuiteCRM**.
+   * **Realidad actual:** Aunque Fat Free CRM es de código abierto (bajo licencia MIT), **SuiteCRM** (bajo AGPL-3.0) es el estándar de la industria y la alternativa libre orientada a entornos empresariales reales más robusta, con soporte completo para flujos corporativos avanzados frente a proyectos más minimalistas.
+   * **Fuente:** Repositorios oficiales en GitHub de SuiteCRM y comparativas del sector del software de gestión libre..
 
 ---
 
