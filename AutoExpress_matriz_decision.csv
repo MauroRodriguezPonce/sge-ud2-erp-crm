@@ -1,0 +1,9 @@
+﻿Criterio;Peso (%);Solución 1: ERP taller + tienda integrada;Solución 2: Gestión taller + integración tienda;Solución 3: ERP generalista + APIs
+Integración taller + tienda online;25;5;4;3
+Gestión de inventario en tiempo real;20;5;5;4
+Coste total de implantación y uso;15;3;4;4
+Facilidad de uso para 10 empleados;15;4;4;3
+Soporte y mantenimiento;10;4;4;4
+Integración con proveedores;5;4;4;3
+Migración y escalabilidad futura;10;4;4;5
+TOTAL PONDERADO (sobre 5);;4,30;4,20;3,65
