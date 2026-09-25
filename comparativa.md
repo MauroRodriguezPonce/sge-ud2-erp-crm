@@ -74,19 +74,127 @@
 ---
 
 ## 5. Matriz de decisión y recomendación (Empresa 1: Panadería artesanal)
-* **Criterios evaluados:** Coste inicial/licenciamiento (peso 25), Control de obrador y compras de harina (peso 20), Integración E-commerce / Pedidos web (peso 20), Facilidad de uso para 18 empleados (peso 15), Requisitos de mantenimiento técnico (peso 10), Escalabilidad a 3 tiendas (peso 10). *Total pesos: 100*.
-* **Opciones candidatas:** 
-  1. Odoo Community (ERP libre)
-  2. Microsoft Dynamics 365 (ERP propietario)
-  3. Odoo Enterprise (ERP propietario open-core)
 
-*(Nota: Los detalles numéricos y totales ponderados se recogen en el fichero `matriz_decision.csv`).*
+1. Contexto
+
+Empresa: Caso 08 — Taller mecánico “AutoExpress”
+Empleados: 10
+
+AutoExpress es un taller mecánico multimarca que también vende recambios mediante una tienda online propia. Actualmente, las citas se gestionan con una agenda de papel y la tienda online funciona con un programa independiente que no está integrado con el taller. Esto provoca problemas de coordinación y puede llegar a producir ventas online de recambios que ya se han utilizado en una reparación.
+
+Palabra del día: Compañero
+
+El objetivo de la solución tecnológica es integrar la gestión del taller, las citas, el inventario y la tienda online, reduciendo errores de stock y facilitando el trabajo de los empleados.
+
+
+2. Soluciones candidatas
+
+Solución 1: ERP taller + tienda integrada
+
+Solución 2: Gestión de taller + integración con la tienda
+
+Solución 3: ERP generalista + APIs
+
+
+3. Criterios de decisión
+
+La matriz utiliza 7 criterios y sus pesos suman el 100 %:
+
+              Criterio                        Peso
+
+- Integración taller + tienda online          25 %
+
+- Gestión de inventario en tiempo real        20 %
+
+- Coste total de implantación y uso           15 %
+
+- Facilidad de uso para 10 empleados          15 %
+
+- Soporte y mantenimiento                     10 %
+
+- Integración con proveedores                  5 %
+
+- Migración y escalabilidad futura            10 %
+
+Total                                        100 %
+
+La puntuación utilizada es de 1 a 5, donde 1 representa una valoración baja para ese criterio y 5 una valoración alta.
+
+4. Resultados de la matriz
+
+El total ponderado se calcula multiplicando cada puntuación por su peso y sumando los resultados. Por ejemplo, para la Solución 1:
+
+(5×25 + 5×20 + 3×15 + 4×15 + 4×10 + 4×5 + 4×10) / 100 = 4,45
+
+
+5. Justificación de las puntuaciones y recomendación
+
+- Solución 1 — ERP taller + tienda integrada
+
+Integración taller + tienda online — 5/5: integra las operaciones del taller y el comercio electrónico, por lo que permite mantener conectados los procesos y reducir el riesgo de vender un recambio que ya se ha utilizado.
+
+Gestión de inventario en tiempo real — 5/5: centraliza el inventario y permite actualizar el stock utilizado en reparaciones y vendido en la tienda online.
+
+Coste total — 3/5: una solución integrada puede requerir una inversión inicial mayor en licencias, implantación, configuración y formación.
+
+Facilidad de uso — 4/5: disponer de una plataforma integrada reduce la necesidad de cambiar continuamente entre aplicaciones.
+
+Soporte y mantenimiento — 4/5: el soporte puede centralizarse en un proveedor, aunque esto también aumenta la dependencia de dicho proveedor.
+
+Integración con proveedores — 4/5: puede centralizar las compras y facilitar futuras conexiones con proveedores.
+
+Migración y escalabilidad futura — 4/5: puede crecer junto con AutoExpress y centralizar más procesos conforme aumenten las necesidades.
+
+
+- Solución 2 — Gestión de taller + integración con la tienda
+
+Integración taller + tienda online — 4/5: permite conectar ambos sistemas, aunque depende de que el conector o integración funcione correctamente.
+
+Gestión de inventario en tiempo real — 5/5: puede sincronizar el stock del taller y de la tienda si la integración está correctamente configurada.
+
+Coste total — 4/5: puede permitir conservar parte de las herramientas actuales y reducir la inversión inicial.
+
+Facilidad de uso — 4/5: los empleados pueden trabajar con herramientas conocidas, aunque existen varios sistemas que deben mantenerse coordinados.
+
+Soporte y mantenimiento — 4/5: el soporte se reparte entre el sistema principal y la integración con la tienda.
+
+Integración con proveedores — 4/5: puede ampliarse mediante módulos o integraciones específicas.
+
+Migración y escalabilidad futura — 4/5: su estructura modular permite añadir funcionalidades posteriormente.
+
+
+- Solución 3 — ERP generalista + APIs
+
+Integración taller + tienda online — 3/5: puede conseguirse mediante APIs, pero requiere más configuración y trabajo técnico.
+
+Gestión de inventario en tiempo real — 4/5: es posible centralizar el inventario, aunque puede depender de módulos y desarrollos adicionales.
+
+Coste total — 4/5: el ERP puede tener un coste competitivo, pero las APIs y conectores pueden aumentar el gasto de implantación y mantenimiento.
+
+Facilidad de uso — 3/5: una configuración más técnica puede aumentar la complejidad para una empresa pequeña de 10 empleados.
+
+Soporte y mantenimiento — 4/5: el ERP puede ofrecer soporte consolidado, pero las integraciones mediante APIs también necesitan mantenimiento.
+
+Integración con proveedores — 3/5: puede realizarse, pero probablemente requiere configurar integraciones específicas.
+
+Migración y escalabilidad futura — 5/5: las APIs ofrecen flexibilidad para conectar nuevos sistemas y ampliar la solución en el futuro.
+
+
+- Recomendación
+
+Según la matriz de decisión, la Solución 1 obtiene 4,45/5, frente a 4,20/5 de la Solución 2 y 3,65/5 de la Solución 3. La puntuación se debe principalmente a que responde directamente al problema central de AutoExpress: conectar el taller, el inventario y la tienda online.
+
+Antes de implantarla, AutoExpress debería comprobar los siguientes riesgos:
+
+Coste total: no hay que valorar únicamente el precio de la licencia. Se deben tener en cuenta implantación, configuración, formación, mantenimiento, actualizaciones y posibles conectores.
+
+Dependencia del proveedor: una solución integrada puede dificultar el cambio a otro proveedor en el futuro. Es importante comprobar que los datos puedan exportarse y revisar las condiciones de salida.
+
+Soporte: conviene definir los canales de soporte, tiempos de respuesta y condiciones del servicio, especialmente cuando una incidencia pueda afectar simultáneamente al taller y a la tienda online.
+
+Migración futura: se debe comprobar que clientes, vehículos, citas, recambios, stock y ventas puedan exportarse en formatos reutilizables para facilitar una futura migración.
+
+Por tanto, la decisión debe basarse en la matriz y, antes de contratar, en la comprobación real del coste, las condiciones de soporte, la portabilidad de los datos y las posibilidades de integración.
+
 
 ### Justificación y Recomendación Final
-Para una panadería artesanal con presupuesto muy ajustado, 18 empleados y 3 tiendas, la opción ganadora es **Odoo Community**. 
-* **Justificación:** Al ser software libre sin costes de licencia por usuario, encaja perfectamente con un presupuesto ajustado. Su módulo de fabricación permite gestionar el obrador y las materias primas (harina), y cuenta con potentes capacidades nativas de comercio electrónico para los pedidos web.
-* **Riesgos analizados:** 
-  * *Coste total (TCO):* Bajo en licencias, pero requiere un partner o perfil técnico para la configuración inicial y mantenimiento en servidor propio o VPS.
-  * *Dependencia del proveedor:* Baja, al ser código abierto se puede cambiar de proveedor de soporte técnico libremente.
-  * *Soporte:* Basado en comunidad o contratando un servicio externo de mantenimiento.
-  * *Migración futura:* Sencilla al disponer de acceso completo al código y a la base de datos PostgreSQL.
